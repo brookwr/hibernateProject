@@ -23,6 +23,7 @@ import javax.persistence.Table;
 @Table(name = "Employee")
 @SequenceGenerator(name = "emp_seq", sequenceName = "emp_seq", allocationSize = 1)
 public class Employee {
+	
 	// Attributes
 	
 	@Id
